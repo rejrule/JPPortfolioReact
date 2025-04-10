@@ -1,0 +1,1 @@
+Retirer tout les initiales AQ , meme dans package.json pour le mettre a JP et assure toi que tout est fonctionnel apres
