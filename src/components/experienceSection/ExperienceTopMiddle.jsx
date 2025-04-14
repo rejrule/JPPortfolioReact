@@ -1,9 +1,16 @@
-// src\components\experienceSection\ExperienceTopMiddle.jsx
+// src/components/experienceSection/ExperienceTopMiddle.jsx
 
 const ExperienceTopMiddle = () => {
   return (
-    <div className="lg:w-[35%] md:w-[50%] sm:w-[80%]">
-      <img src="/images/experience-image.png" alt="my experience" />
+    <div className="w-full lg:w-[30%]">
+
+      <div className="p-4 bg-white rounded-3xl border-4 border-orange shadow-lg">
+        <img
+          src="/public/images/CodeboxxImage01.png"
+          alt="CodeBoxx logo"
+          className="w-full h-auto object-contain rounded-2xl max-h-[350px]"
+        />
+      </div>
     </div>
   );
 };

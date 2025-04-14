@@ -3,20 +3,15 @@
 const ExperienceTopRight = () => {
   return (
     <div className="xl:w-[25%] lg:w-[30%] border border-lightBrown p-4 rounded-xl">
-      <p className="text-lg text-center text-lightGrey">
-        I specialize in{" "}
-        <span className="font-bold text-white">
-          React and modern JavaScript
-        </span>
-        , leveraging best practices to create scalable and maintainable
-        solutions. <br />
-        My experience spans working on diverse projects, from small business
-        websites to{" "}
-        <span className="font-bold text-white">complex front-end systems</span>,
-        always aiming for clean code and exceptional user experiences.
+      <p className="text-sm text-center text-lightGrey leading-relaxed">
+        I completed a fullstack web development program at <span className="text-white font-bold">CodeBoxx</span>, where I built real-world applications across 16 hands-on modules. <br /><br />
+        My experience includes working with <span className="text-white font-bold">front-end frameworks</span> like React and TailwindCSS, as well as <span className="text-white font-bold">back-end technologies</span> such as Node.js, Express, MongoDB, and MySQL.
+        <br /><br />
+        I focus on writing clean, well-structured code, and enjoy turning ideas into functional, responsive, and engaging web experiences.
       </p>
     </div>
   );
 };
 
 export default ExperienceTopRight;
+

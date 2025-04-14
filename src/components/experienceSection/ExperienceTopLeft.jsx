@@ -1,23 +1,24 @@
-// src\components\experienceSection\ExperienceTopLeft.jsx
+// src/components/experienceSection/ExperienceTopLeft.jsx
 
 import ExperienceInfo from "./ExperienceInfo";
 
 const ExperienceTopLeft = () => {
   return (
-    <div className="flex flex-col gap-6 w-[300px]">
+    <div className="flex flex-col gap-6 w-full lg:w-[25%]">
+
       <p className="text-orange font-bold uppercase text-3xl font-special text-center">
-        Since 2024
+        CodeBoxx Program
       </p>
       <div className="flex justify-center items-center gap-4">
-        <ExperienceInfo number="1" text="Years" />
+        <ExperienceInfo number="16" text="Modules" />
         <p className="font-bold text-6xl text-lightBrown">-</p>
-        <ExperienceInfo number="23" text="Websites" />
+        <ExperienceInfo number="Fullstack" text="Projects" />
       </div>
       <p className="text-center">
-        With 1 years of experience building dynamic and user-friendly web
-        applications.
+        Completed an intensive web development training covering front-end,
+        back-end, and fullstack projects.
       </p>
-      <ExperienceInfo number="$100k" text="Max Budget" />
+      <ExperienceInfo number="2024" text="Cohort" />
     </div>
   );
 };

@@ -6,7 +6,8 @@ import ExperienceTopRight from "./ExperienceTopRight";
 
 const ExperienceTop = () => {
   return (
-    <div className="flex lg:flex-row sm:flex-col gap-4 items-center justify-center">
+    <div className="flex lg:flex-row sm:flex-col justify-between items-start gap-8">
+
       <ExperienceTopLeft />
       <ExperienceTopMiddle />
       <ExperienceTopRight />

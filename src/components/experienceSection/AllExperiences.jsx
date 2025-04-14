@@ -7,34 +7,36 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const experiences = [
   {
-    job: "Front-End Developer",
-    company: "Alex Apps",
-    date: "2022 - Present",
+    job: "Fullstack Web Developer",
+    company: "CodeBoxx Program",
+    date: "2024",
     responsibilities: [
-      "Implementing reusable components.",
-      "Participating in large scale application.",
-      "Working on the performance of web applications.",
-      "Generating new ideas for better user experience.",
+      "Completed 16 modules in fullstack development.",
+      "Built apps with React, Node.js, MySQL and MongoDB.",
+      "Applied Git, teamwork, and agile best practices.",
+      "Focused on clean design, structure, and reuse."
     ],
   },
   {
-    job: "Course Instructor",
-    company: "Nucamp",
-    date: "2023 - Present",
+    job: "Self-Taught Developer",
+    company: "Personal Projects",
+    date: "2024",
     responsibilities: [
-      "Explaining and facilitating web development concepts.",
-      "Help students with their assignments and grade them weekly.",
-      "Provide support for students through their learning journey.",
+      "Building apps with JavaScript and modern stacks.",
+      "Learning through platforms, courses, and tutorials.",
+      "Practicing with challenges and side projects.",
+      "Collaborating in dev communities and groups."
     ],
   },
   {
-    job: "Course Instructor",
-    company: "Sprints",
-    date: "2024 - Present",
+    job: "AI Developer in Training",
+    company: "CodeBoxx AI Program",
+    date: "2025 - Ongoing",
     responsibilities: [
-      "Teaching JavaScript, React and TailwindCSS.",
-      "Participating in preparing course materials.",
-      "Helping students through their way in learning web development technologies.",
+      "Learning AI, NLP, vision, and deep learning models.",
+      "Developing with Python, Pandas, and TensorFlow.",
+      "Creating AI tools for integration into web apps.",
+      "Exploring AI ethics and responsible innovation."
     ],
   },
 ];
@@ -53,7 +55,7 @@ const AllExperiences = () => {
                 whileInView="show"
                 viewport={{ once: false, amount: 0.7 }}
               >
-                <FaArrowRightLong className="text-6xl text-orange lg:block sm:hidden" />
+                <FaArrowRightLong className="text-6xl text-orange lg:block sm:hidden mt-4" />
               </motion.div>
             ) : (
               ""
