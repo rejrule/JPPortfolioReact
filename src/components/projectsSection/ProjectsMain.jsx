@@ -7,31 +7,38 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
   {
-    name: "GPI Stats Analyzer",
+    name: "Rocket Elevator Website",
     year: "2024",
     align: "right",
-    image: "/images/website-img-1.jpg",
+    image: "/images/rocketElevatorProject.png",
     link: "#",
   },
   {
     name: "RocketFood Delivery Platform",
     year: "2024",
     align: "left",
-    image: "/images/website-img-2.webp",
+    image: "/images/rocketFoodDeliveryProject.png",
     link: "#",
   },
   {
-    name: "CodeBloggs CMS",
+    name: "CodeBloggs",
     year: "2024",
     align: "right",
-    image: "/images/website-img-3.jpg",
+    image: "/images/codebloggsProject.png",
     link: "#",
   },
   {
-    name: "AI Model Trainer",
+    name: "Portfolio",
     year: "2025",
     align: "left",
-    image: "/images/website-img-4.jpg",
+    image: "/images/portfolioProject.png",
+    link: "#",
+  },
+  {
+    name: "AI Model Trainer with CODEBOXX",
+    year: "2025",
+    align: "right",
+    image: "/images/aiCodeboxx.png",
     link: "#",
   },
 ];

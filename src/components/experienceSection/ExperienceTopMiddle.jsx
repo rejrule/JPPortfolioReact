@@ -7,7 +7,7 @@ const ExperienceTopMiddle = () => {
 <div className="p-4 bg-[#FFFFFF] rounded-3xl border-4 border-orange shadow-lg">
 
         <img
-          src="/public/images/CodeboxxImage01.png"
+          src="/images/CodeboxxImage01.png"
           alt="CodeBoxx logo"
           className="w-full h-auto object-contain rounded-2xl max-h-[350px]"
         />
