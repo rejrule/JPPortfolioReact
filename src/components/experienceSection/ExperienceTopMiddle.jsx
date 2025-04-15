@@ -4,7 +4,8 @@ const ExperienceTopMiddle = () => {
   return (
     <div className="w-full lg:w-[30%]">
 
-      <div className="p-4 bg-white rounded-3xl border-4 border-orange shadow-lg">
+<div className="p-4 bg-[#FFFFFF] rounded-3xl border-4 border-orange shadow-lg">
+
         <img
           src="/public/images/CodeboxxImage01.png"
           alt="CodeBoxx logo"
